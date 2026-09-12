@@ -1,2 +1,3 @@
 /target
 /src/jvmti_bindings.rs
+*.lock
