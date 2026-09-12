@@ -8,7 +8,7 @@ jni = "0.22.4"
 zip = "8.6.0"
 ristretto_classfile = "0.33.0"
 jvmti-autobindings = "0.1.1"
-
+jvmti-bindings = "3"
 [build-dependencies]
 bindgen = "0.72.1"
 

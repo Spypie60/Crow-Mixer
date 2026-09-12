@@ -217,6 +217,7 @@ dependencies = [
  "bindgen",
  "jni",
  "jvmti-autobindings",
+ "jvmti-bindings",
  "ristretto_classfile",
  "zip",
 ]
@@ -490,6 +491,12 @@ checksum = "132bef45892b9e7b3e0c4136ddb6826d2afd216367d6ef122fb6373683c80f1c"
 dependencies = [
  "bindgen",
 ]
+
+[[package]]
+name = "jvmti-bindings"
+version = "3.0.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "fe66104d0666e97ebcdda2a31ef46270fdb2452637d48796f828c4f238bf5303"
 
 [[package]]
 name = "libbz2-rs-sys"
